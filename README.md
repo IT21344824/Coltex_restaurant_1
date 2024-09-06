@@ -1,5 +1,6 @@
 ### dependencies 
 make user you have install Node.js , VS code
+to download Node.js go to "https://nodejs.org/en" then donload (LTS) version.
 
 then open VS code, then create a new folder and redirect to it
 
