@@ -3,9 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-slate-500 text-white relative'>
-            {/* <div className="absolute top-[-30px] left-1/2 transform -translate-x-1/2 w-0 h-0">
-                <div className="w-0 h-0 border-l-[30vw] border-r-[30vw] border-b-[30px] border-l-transparent border-r-transparent border-b-[#374151] absolute top-0 left-1/2 transform -translate-x-1/2"></div>
-            </div> */}
+           
             <footer className="flex mx-40 items-center justify-between p-4 mt-16 ">
                 <div className="flex flex-col ">
                     <h3 className="text-sm font-semibold leading-6 items-start">LOGO</h3>
