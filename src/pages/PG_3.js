@@ -1,10 +1,13 @@
 import React from 'react'
+import MenuHeader from '../components/RiceMenu_comps/MenuHeader'
+import MenuContent from '../components/RiceMenu_comps/MenuContent'
 
 const PG_3 = () => {
   return (
-    <div>
-      PG_3
-      PG_3
+    <div className='text-black'>
+      <MenuHeader />
+      <MenuContent/>
+
     </div>
   )
 }
