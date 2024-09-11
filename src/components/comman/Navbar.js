@@ -89,13 +89,13 @@ const Navbar = () => {
                   >
                     Link 1
                   </a> */}
-                  <Link to="/link-2">
+                  <Link to="/Bugers">
                     <a href="#" className="rounded-md px-3 py-2 text-sm font-medium  hover:bg-gray-700 hover:text-white">
                       Link 2
                     </a>
                   </Link>
 
-                  <Link to="/PG_3">
+                  <Link to="/Mixed_Rice">
                     <a href="#" className="rounded-md px-3 py-2 text-sm font-medium  hover:bg-gray-700 hover:text-white">
                       Link 3
                     </a>

@@ -21,8 +21,8 @@ export default function App() {
               <Layout_1 />
             }>
               <Route index element={<Home_pg />} />
-              <Route path="link-2" element={<Link1_pg_2 />} />
-              <Route path="link-3" element={<Link1_pg_3 />} />
+              <Route path="Bugers" element={<Link1_pg_2 />} />
+              <Route path="Mixed_Rice" element={<Link1_pg_3 />} />
               <Route path="cart" element={<Cart_pg />} />
           
             </Route>
