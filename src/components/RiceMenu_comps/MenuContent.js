@@ -11,6 +11,11 @@ const MenuContent = () => {
     navigate(`/Customize?item=${itemId}`); 
   };
 
+  // Function to handle navigation to the Cart page
+  const handleAddToCartClick = () => {
+    navigate('/cart'); 
+  };
+
   return (
     <main>
       <section className="menu">
@@ -34,7 +39,12 @@ const MenuContent = () => {
               >
                 Customize
               </button>
-              <button className="add-to-cart-btn">Add to Cart</button>
+              <button 
+                className="add-to-cart-btn"
+                onClick={handleAddToCartClick} 
+              >
+                Add to Cart
+              </button>
             </div>
           </div>
         ))}
