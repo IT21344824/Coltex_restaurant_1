@@ -13,8 +13,10 @@ const MenuContent = () => {
 
   // Function to handle navigation to the Cart page
   const handleAddToCartClick = () => {
+    console.log('Add to Cart button clicked'); 
     navigate('/cart'); 
   };
+
 
   return (
     <main>
@@ -41,10 +43,11 @@ const MenuContent = () => {
               </button>
               <button 
                 className="add-to-cart-btn"
-                onClick={handleAddToCartClick} 
+                onClick={handleAddToCartClick}
               >
                 Add to Cart
               </button>
+              {console.log('Rendering Add to Cart button')} {/* Debugging log */}
             </div>
           </div>
         ))}
