@@ -1,0 +1,139 @@
+/* src/styles/CustomizeMixedRice.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero-section {
+    /* background-image: url('../assets/customize-imgs/Fried_Rice_Recipes_Article.jpg'); */
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    color: white;
+  }
+  
+  .hero-section h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .options-section {
+    margin: 30px 0;
+  }
+  
+  .options-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .option-box {
+    border: 1px solid #FFF;
+    background-color: #FFE0B5;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .option-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .option-box img {
+    width: 200px;
+    height: 180px;
+    display: block;
+  }
+  
+  .option-box label {
+    display: block;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  
+  .order-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #FFE0B5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 50px;
+  }
+  
+  .price span {
+    font-size: 18px;
+    color: #333;
+    margin-right: 15px;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    background-color: #FFA500;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    padding: 5px;
+  }
+  
+  .quantity-controls button {
+    background-color: #FFA500;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .quantity-controls input {
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: #FFA500;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+  }
+  
+  .confirm,
+  .cancel {
+    background-color: #07B607;
+    border: none;
+    width: 200px;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .cancel {
+    background-color: #A11515;
+  }
+  
+  .confirm:hover,
+  .cancel:hover {
+    background-color: #e65a50;
+  }
+  

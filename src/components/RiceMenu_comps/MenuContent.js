@@ -1,9 +1,16 @@
 // MenuContent.js
 import React from 'react';
-import { menuItems } from './MenuItemDetails'; // Importing the menu items data
+import { menuItems } from './MenuItemDetails'; 
+import { useNavigate } from 'react-router-dom'; 
 import '../../styles/RiceMenu.css';
 
 const MenuContent = () => {
+  const navigate = useNavigate(); 
+
+  const handleCustomizeClick = (itemId) => {
+    navigate(`/Customize?item=${itemId}`); 
+  };
+
   return (
     <main>
       <section className="menu">
@@ -21,7 +28,12 @@ const MenuContent = () => {
               </div>
             </div>
             <div className="actions">
-              <button className="customize-btn">Customize</button>
+            <button 
+                className="customize-btn"
+                onClick={() => handleCustomizeClick(item.id)}
+              >
+                Customize
+              </button>
               <button className="add-to-cart-btn">Add to Cart</button>
             </div>
           </div>
