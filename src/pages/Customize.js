@@ -1,5 +1,5 @@
 import React from 'react'
-import CustomizeMixedRiceContent from '../components/CustomizeMixedRice_comps/CustomizeMixedRiceHeader'
+import CustomizeMixedRiceHeader from '../components/CustomizeMixedRice_comps/CustomizeMixedRiceHeader'
 import CustomizeMixedRiceContent from '../components/CustomizeMixedRice_comps/CustomizeMixedRiceContent'
 
 
